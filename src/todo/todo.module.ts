@@ -3,7 +3,7 @@ import { TodoService } from './todo.service';
 import { TodoController } from './todo.controller';
 
 @Module({
-  controllers: [TodoController],
-  providers: [TodoService],
+    controllers: [TodoController],
+    providers: [TodoService],
 })
 export class TodoModule {}

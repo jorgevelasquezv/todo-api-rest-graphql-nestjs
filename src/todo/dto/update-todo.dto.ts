@@ -3,7 +3,7 @@ import { CreateTodoDto } from './create-todo.dto';
 import { IsBoolean, IsOptional } from 'class-validator';
 
 export class UpdateTodoDto extends PartialType(CreateTodoDto) {
-  @IsBoolean()
-  @IsOptional()
-  readonly completed: boolean;
+    @IsBoolean()
+    @IsOptional()
+    readonly completed: boolean;
 }

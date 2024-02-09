@@ -13,11 +13,11 @@ API RESTful ToDo basica en NestJS.
   ```
 * Contar con la CLI de NestJS instalada, para instalar ejecutar el comando 
   ```
-  npm i -g @nestjs/cli
+  $ npm i -g @nestjs/cli
   ``` 
   Tambien puede ajecutarse la CLI sin instalación local ejecutando con npx. Ejemplo: 
   ```
-  npx nest new name-project
+  $ npx nest new name-project
   ```
 * Contar con Git instalado. Para instalar descargar desde la [pagina oficial de git](https://git-scm.com/downloads)
 * Clonar repositorio con ````git clone https://github.com/jorgevelasquezv/todo-api-rest-graphql-nestjs.git````
